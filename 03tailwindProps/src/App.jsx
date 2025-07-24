@@ -1,6 +1,7 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 import Cards from './components/card'
+import BuyFace from './components/buyface'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,6 +16,8 @@ function App() {
           <Cards username = "Edward" nickname = "WhiteBeardPirates"/>
           <Cards username = "Shanks" nickname = "RedHairedPirates"/>
       </div>
+      <BuyFace face="https://images.pexels.com/photos/18581950/pexels-photo-18581950.jpeg" name="Zoro" price="1 Billion Berries"/>
+      <BuyFace />
     </>
   )
 }
