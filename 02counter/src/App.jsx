@@ -26,11 +26,15 @@ function App() {
 
 function Build() {
   // const [coun, setCoun] = useState(0)
+  let vary = () => {
+    // setCoun(coun+1)
+    console.log("Button clicked")
+    }
 
   return(
     <>
-    <button>View</button>
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.naylors.com%2Fblog%2Fhorses-hot-weather-beat-the-heat&psig=AOvVaw1EybfI5Ga33WisBq2JKBCi&ust=1753294744978000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLDWt4eK0Y4DFQAAAAAdAAAAABAE" alt="" />
+    <button onClick={vary}>View</button>
+      <img src="https://images.pexels.com/photos/33039009/pexels-photo-33039009.jpeg" alt="" />
     </>
   )
 }
